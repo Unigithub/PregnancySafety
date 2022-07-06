@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(to left, #CFBCC0, #D0B6C7);
+    color: white; 
+}
+
+h1 /* titre */ {
+	align-items: center;
+	text-align: center;
+	color: deeppink;
+	font-size: 45px;
+	padding: 15px;
+	
+	height: 100px;
+}
+
+h2 /* sous-titres */ {
+	padding: 8px;
+	font-size: 25px;
+	color: black;
+	margin-left: 40px;
+}
+
+img {
+	max-height: 180px;
+	max-width: 180px;
+	position: absolute;
+	left: 85%;
+}
+
+.index_logo /* logo - Index */ {
+	max-height: 180px;
+	max-width: 180px;
+	position: absolute;
+	left: 85%;
+}
+
+.contact_logo /* logo - Contact*/ {
+	max-height: 200px;
+	max-width: 200px;
+	position: absolute;
+	left: 75%;
+}
+
+.middle /* image au milieu */ {
+	max-width: 300px;
+	max-height: 300px;
+	width : 48vw;
+	height : 36vh;
+	position: absolute;
+	left: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+p /* texte */ {
+	font-size: 20px;
+	color: black;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify;
+}
+
+h3 /* pied de page */ {
+	font-size: 16px;
+	color : white;
+	background-color: black;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+
+nav ul /* barre de navigation */ {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+
+
+	background-image: linear-gradient(to right, #96265E, #F35776);
+}
+
+nav li /* all éléments de la barre de navigation */ {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	border-right: 1px;
+	text-align: center;
+}
+
+nav li a /* les différents éléments de la barre */ {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav li :hover /* quand on passe au-dessus */{
+	color: #3388BB;
+}
