@@ -52,6 +52,15 @@ img {
 	justify-content: center;
 }
 
+.download {
+	max-height: 300px;
+	max-width: 500px;
+	width: 4;
+	height: 4;
+	position: absolute;
+	left: 80%;
+}
+
 p /* texte */ {
 	font-size: 20px;
 	color: black;
